@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/grupOlusturId"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Grup Olustur" />
+        <item
+            android:id="@+id/grubaUyeEkleId"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Gruba Uye Ekle" />
+
+        <item
+            android:id="@+id/mesajOlusturId"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Mesaj Olustur" />
+
+        <item
+            android:id="@+id/mesajGonderId"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Mesaj Gonder" />
+
+        <item
+            android:id="@+id/logOutId"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="LOG OUT" />
+
+
+
+    </group>
+</menu>

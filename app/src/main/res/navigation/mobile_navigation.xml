@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/mesajGonderId">
+
+    <fragment
+        android:id="@+id/grupOlusturId"
+        android:name="com.example.grupsmsuygulamasi.ui.GrupOlustur.grupOlusturFragment"
+        android:label="Grup Olustur"
+        tools:layout="@layout/fragment_grup_olustur" />
+    <fragment
+        android:id="@+id/grubaUyeEkleId"
+        android:name="com.example.grupsmsuygulamasi.ui.GrubaUyeEkle.GrubaUyeEkleFragment"
+        android:label="Gruba Uye Ekle"
+        tools:layout="@layout/fragment_gruba_uye_ekle" />
+    <fragment
+        android:id="@+id/mesajOlusturId"
+        android:name="com.example.grupsmsuygulamasi.ui.MesajOlustur.MesajOlusturFragment"
+        android:label="Mesaj Olustur"
+        tools:layout="@layout/fragment_mesaj_olustur" />
+    <fragment
+        android:id="@+id/mesajGonderId"
+        android:name="com.example.grupsmsuygulamasi.ui.MesajGonder.MesajGonderFragment"
+        android:label="Mesaj Gonder"
+        tools:layout="@layout/fragment_mesaj_gonder" />
+    <fragment
+        android:id="@+id/logOutId"
+        android:name="com.example.grupsmsuygulamasi.ui.LogOut.LogOutFragment"
+        android:label="Çıkış Yap"
+        tools:layout="@layout/fragment_log_out" />
+
+
+</navigation>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "145472775251",
+    "project_id": "grup-sms-uygulamasi",
+    "storage_bucket": "grup-sms-uygulamasi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:145472775251:android:6d965f46164feef67212a6",
+        "android_client_info": {
+          "package_name": "com.example.grupsmsuygulamasi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "145472775251-qptd70r3aq5h6v218d2lgbhvm9g5l9hv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3hx4hcf9XrasSHumQd-SP_X4Zfu3whuk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "145472775251-qptd70r3aq5h6v218d2lgbhvm9g5l9hv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
